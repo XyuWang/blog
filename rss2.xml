@@ -7,8 +7,22 @@
     <link>https://xyu.wang/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[]]></description>
-    <pubDate>Thu, 15 Jan 2015 16:19:49 GMT</pubDate>
+    <pubDate>Sun, 18 Jan 2015 06:17:33 GMT</pubDate>
     <generator>http://zespia.tw/hexo/</generator>
+    
+    <item>
+      <title><![CDATA[关于翻墙的那些事]]></title>
+      <link>https://xyu.wang/2015/01/16/%E5%85%B3%E4%BA%8E%E7%BF%BB%E5%A2%99%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <guid>https://xyu.wang/2015/01/16/%E5%85%B3%E4%BA%8E%E7%BF%BB%E5%A2%99%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <pubDate>Fri, 16 Jan 2015 03:09:31 GMT</pubDate>
+      <description>
+      <![CDATA[<p>如果你选中resolve dns remotely 的话就会导致发错ip地址, 出现问题udp和tcp不会出现 但imcp会出现问题, 所以选择本地修改dns</p>
+]]>
+      </description>
+      <content:encoded><![CDATA[<p>如果你选中resolve dns remotely 的话就会导致发错ip地址, 出现问题udp和tcp不会出现 但imcp会出现问题, 所以选择本地修改dns</p>
+]]></content:encoded>
+      <comments>https://xyu.wang/2015/01/16/%E5%85%B3%E4%BA%8E%E7%BF%BB%E5%A2%99%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/#disqus_comments</comments>
+    </item>
     
     <item>
       <title><![CDATA[Hello World]]></title>
