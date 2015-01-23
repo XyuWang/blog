@@ -84,7 +84,7 @@
     </p>
   <p class="article-time">
     <time datetime="2015-01-16T03:09:31.000Z" itemprop="datePublished">1月 16 2015</time>
-    更新日期:<time datetime="2015-01-23T17:28:26.000Z" itemprop="dateModified">1月 24 2015</time>
+    更新日期:<time datetime="2015-01-23T17:29:44.000Z" itemprop="dateModified">1月 24 2015</time>
     
   </p>
 </header>
@@ -105,7 +105,7 @@
 <li>无缝（最好感觉不到墙的存在）</li>
 </ol>
 <p>先列举一下市面上的主要翻墙方法：<br>pptp/l2tp/openVPN/shadowsocks</p>
-<p>最先用的是pptp 在公司（电信）用的好好的，发现换个地方上网（联通）就连不上了， 于是换了抗干扰更强的l2tp， 这下可以上了， 但一回家（长城宽带）什么pptp， l2tp全不管用， 无奈尝试架个openVPN果然还是一样。 而且这三者还有一个问题就是老是得手动点击连接VPN， 合上屏幕出去会再打开又得重连， 虽然说可以写个脚本自动连吧，但还得关注它连上没，连的又慢有时候还连不上，操心。 排除这三者。</p>
+<p>最先用的是pptp。在公司（电信）用的好好的，发现换个地方上网（联通）就连不上了， 于是换了抗干扰更强的l2tp， 这下可以上了， 但一回家（长城宽带）什么pptp， l2tp全不管用， 无奈尝试架个openVPN果然还是一样。 而且这三者还有一个问题就是老是得手动点击连接VPN， 合上屏幕出去会再打开又得重连， 虽然说可以写个脚本自动连吧，但还得关注它连上没，连的又慢有时候还连不上，操心。 排除这三者。</p>
 <p>接下来就是现在最流行的shadowsocks了， 详细说说它。</p>
 <p>先根据<a href="https://github.com/shadowsocks/shadowsocks" target="_blank" rel="external">文档</a> 在服务器上安装好服务端<br>接下来轮到客户端， 在命令行下执行：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">brew install shadowsocks-libev</div><div class="line">ln -sfv /usr/local/opt/shadowsocks-libev/*.plist ~/Library/LaunchAgents</div></pre></td></tr></table></figure>
