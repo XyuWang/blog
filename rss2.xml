@@ -7,7 +7,7 @@
     <link>https://xyu.wang/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[]]></description>
-    <pubDate>Fri, 23 Jan 2015 17:32:11 GMT</pubDate>
+    <pubDate>Fri, 23 Jan 2015 17:40:55 GMT</pubDate>
     <generator>http://zespia.tw/hexo/</generator>
     
     <item>
@@ -67,7 +67,7 @@
 <pre><code>当前 <span class="literal">IP</span>：<span class="number">23.239</span><span class="string">.7</span><span class="string">.126</span> 来自：美国 Linode
 </code></pre><p>  大功告成。</p>
 <p>ps. 其实一开始用的客户端是GoAgentX， 后来发现有些问题（麻烦、udp）就不用了。<br>pps: 如果一直出现 unsupported cmd: 3 表示udp配置有问题 检查服务端是不是忘了加上-u, 只有nodejs和libev这两个版本才有udp转发。<br>ppps: 可能会出现文件句柄不足的问题， 需要改大一些。</p>
-<p>现在再也不用担心VPN断开，不用重连， 稳定， 无缝，忘记墙的存在吧。</p>
+<p>现在再也不用担心VPN断开，更不用重连。 稳定， 无缝，忘记墙的存在吧。</p>
 ]]></content:encoded>
       <comments>https://xyu.wang/2015/01/16/%E5%85%B3%E4%BA%8E%E7%BF%BB%E5%A2%99%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/#disqus_comments</comments>
     </item>
