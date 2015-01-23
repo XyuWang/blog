@@ -7,7 +7,7 @@
     <link>https://xyu.wang/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[]]></description>
-    <pubDate>Fri, 23 Jan 2015 17:29:52 GMT</pubDate>
+    <pubDate>Fri, 23 Jan 2015 17:30:57 GMT</pubDate>
     <generator>http://zespia.tw/hexo/</generator>
     
     <item>
@@ -63,7 +63,7 @@
 <span class="number">2</span> server listening at port <span class="number">1081</span>
 <span class="number">3</span> udprelay enabled.
 </code></pre><p>这就表示正常运行了</p>
-<p>shadowsocks 是一个socks5代理，一般来说是用来代理网页的， 那怎么让它成为全局代理，类似vpn那样呢，这时候有2个工具能帮你实现<br>一是proxycap(免费) 而是proxifier（收费）<br>有免费的当然用免费的啦。 下载<a href="http://www.proxycap.com/" target="_blank" rel="external">proxycap</a> 打开<br>新建一个代理 <img src="http://ww3.sinaimg.cn/large/9847331bjw1eojyre2xumj20df06mq3k.jpg" alt=""><br>之后再建立几个规则， 如图<img src="http://ww2.sinaimg.cn/large/9847331bjw1eojys979ilj20ij0c8wgh.jpg" alt=""><br>注意本机和服务器需要直连， 最后一条设置代理规则, 配置完成 OK<br><img src="http://ww4.sinaimg.cn/large/9847331bjw1eojyt2t1h9j204g01sjrc.jpg" alt="">点击Enable ProxyCap.<br>在命令行执行<code>curl ip.cn</code> 显示</p>
+<p>shadowsocks 是一个socks5代理，一般来说是用来代理网页的， 那怎么让它成为全局代理，类似vpn那样呢，这时候有2个工具能帮你实现<br>一是proxycap(免费) 二是proxifier（收费）<br>有免费的当然用免费的啦 下载<a href="http://www.proxycap.com/" target="_blank" rel="external">proxycap</a> 打开<br>新建一个代理 <img src="http://ww3.sinaimg.cn/large/9847331bjw1eojyre2xumj20df06mq3k.jpg" alt=""><br>之后再建立几个规则， 如图<img src="http://ww2.sinaimg.cn/large/9847331bjw1eojys979ilj20ij0c8wgh.jpg" alt=""><br>注意本机和服务器需要直连， 最后一条设置代理规则, 配置完成 OK<br><img src="http://ww4.sinaimg.cn/large/9847331bjw1eojyt2t1h9j204g01sjrc.jpg" alt="">点击Enable ProxyCap.<br>在命令行执行<code>curl ip.cn</code> 显示</p>
 <blockquote>
 <p>当前 IP：23.239.7.126 来自：美国 Linode<br> 大功告成。</p>
 </blockquote>
